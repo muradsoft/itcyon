@@ -19,7 +19,7 @@ $(document).ready(function () {
 			$(this).on("click", function (e) {
 				e.preventDefault();
 				$('.add-block').eq(i).toggleClass('add-block__active');
-				$('[data-btn=work]').eq(i).toggleClass('btn-addgreen_close')
+				$('[data-btn=work]').eq(i).toggleClass('btn-add_close')
 			});
 		});
 	};
@@ -29,7 +29,7 @@ $(document).ready(function () {
 			$(this).on("click", function (e) {
 				e.preventDefault();
 				$('.chooseworker').eq(i).toggleClass('chooseworker__active');
-				$('[data-btn=worker]').eq(i).toggleClass('btn-addgreen_close')
+				$('[data-btn=worker]').eq(i).toggleClass('btn-add_close')
 			});
 		});
 	};
