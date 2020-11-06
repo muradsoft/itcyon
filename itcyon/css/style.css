@@ -515,6 +515,10 @@ a {
   display: block;
 }
 
+.tasks-block_close {
+  display: none;
+}
+
 .regform {
   padding: 77px 10px;
 }
